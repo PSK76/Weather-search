@@ -26,6 +26,9 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+#source-code {
+  text-decoration: none;
+}
 .overview {
   margin-bottom: 15px;
 }
