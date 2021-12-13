@@ -26,6 +26,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+a {
+  text-decoration: none;
+}
+
 #source-code {
   text-decoration: none;
 }
@@ -62,6 +66,12 @@ li:first-letter {
   font-size: 14px;
 }
 
-.weather-temperature .units a {
+.weather-temperature .active {
+  color: #2a2a3b;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature #fahrenheit-link {
   text-decoration: none;
 }
