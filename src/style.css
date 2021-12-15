@@ -31,11 +31,37 @@ a {
   text-decoration: none;
 }
 
+hr {
+  opacity: 0.1;
+}
+
+.weather-forecast {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: darkorchid;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  color: darkmagenta;
+}
+
 #source-code {
   text-decoration: none;
 }
 .overview {
   margin-bottom: 15px;
+}
+
+.view {
+  padding: 10px;
 }
 
 .weather-app-wrapper {
